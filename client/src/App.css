@@ -1,8 +1,5 @@
 .app {
-    background: url('./assets/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: radial-gradient(circle at top right, rgba(179, 25, 44, 0.5), rgba(0, 0, 0, 0.95));
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;

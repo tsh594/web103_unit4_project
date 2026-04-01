@@ -1,0 +1,56 @@
+.page-wrap,
+.list-wrap,
+.detail-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.builder-panel,
+.preview-panel {
+  width: min(560px, 100%);
+}
+
+.preview-panel {
+  margin-left: 16px;
+}
+
+.car-preview {
+  border-radius: 14px;
+  min-height: 170px;
+  padding: 24px;
+  margin: 14px 0;
+  text-align: center;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+.car-emoji {
+  font-size: 56px;
+  margin: 0;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.car-card {
+  margin: 0;
+}
+
+.error-text {
+  color: #ff9f9f;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .page-wrap {
+    flex-direction: column;
+  }
+
+  .preview-panel {
+    margin-left: 0;
+  }
+}
